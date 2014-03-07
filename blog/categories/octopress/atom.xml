@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Yuan's blog]]></title>
+  <link href="http://linjiyuan90.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://linjiyuan90.github.io/"/>
+  <updated>2014-03-07T11:11:51+08:00</updated>
+  <id>http://linjiyuan90.github.io/</id>
+  <author>
+    <name><![CDATA[Jiyuan Lin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[octopress tutorial]]></title>
+    <link href="http://linjiyuan90.github.io/blog/2014/03/06/octopress-tutorial/"/>
+    <updated>2014-03-06T17:33:05+08:00</updated>
+    <id>http://linjiyuan90.github.io/blog/2014/03/06/octopress-tutorial</id>
+    <content type="html"><![CDATA[<p>http://webdesign.tutsplus.com/tutorials/getting-started-with-octopress–webdesign-11442
+http://asaf.github.io/blog/2013/07/08/blogging-with-octopress-add-comments/
+https://github.com/stchangg/mathy
+http://blog.zhengdong.me/2012/12/19/latex-math-in-octopress</p>
+
+<p><code>bash
+$ rake install['theme']  #
+$ rake new_post["title"]
+$ rake new_page["about me"]
+$ rake generate # the result will be in public
+$ rake watch
+$ rake preview  # this will watch as well
+$ rake push
+</code></p>
+
+<h2 id="todo">TODO</h2>
+
+<ul>
+  <li>how to categorize</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

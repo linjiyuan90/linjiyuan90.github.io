@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ds-algo | Yuan's blog]]></title>
+  <link href="http://linjiyuan90.github.io/blog/categories/ds-algo/atom.xml" rel="self"/>
+  <link href="http://linjiyuan90.github.io/"/>
+  <updated>2014-03-07T11:11:51+08:00</updated>
+  <id>http://linjiyuan90.github.io/</id>
+  <author>
+    <name><![CDATA[Jiyuan Lin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Some Sort]]></title>
+    <link href="http://linjiyuan90.github.io/blog/2014/03/06/some-sort/"/>
+    <updated>2014-03-06T22:42:20+08:00</updated>
+    <id>http://linjiyuan90.github.io/blog/2014/03/06/some-sort</id>
+    <content type="html"><![CDATA[<h2 id="count-sort">Count Sort</h2>
+<p><strong>O(n+k)</strong> where k is the maximum value, <strong>Stable</strong></p>
+
+<h2 id="radix-sorthttpwwwgeeksforgeeksorgradix-sort"><a href="http://www.geeksforgeeks.org/radix-sort/">Radix Sort</a></h2>
+<p>The radix means base, it’s <strong>Stable</strong>.</p>
+
+<p><code>
+for bit from low to high
+  sort each element by the value of current bit (count sort)
+</code></p>
+
+<p><strong>O((n+b)log<sub>b</sub>(k))</strong></p>
+
+<p>log<sub>b</sub>(k) rounds, while each round use Count Sort, and</p>
+
+<ul>
+  <li>b is the radix</li>
+  <li>k is the maximum value</li>
+</ul>
+
+<p>If k is n^c and b is n, then the time complexity will be <strong>O(n)</strong>, which is nice!</p>
+
+<p><strong>Summary</strong></p>
+
+<ul>
+  <li>maximum value is n, use count sort</li>
+  <li>maximum values is n^c, use radix sort with radix n. <br />
+<a href="http://www.geeksforgeeks.org/sort-n-numbers-range-0-n2-1-linear-time/">Sort n number with value less than n^2 in O(n)</a></li>
+</ul>
+
+<p>The drawback of these two sort is they require O(n) space. However, they are not
+based on comparision like quicksort.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

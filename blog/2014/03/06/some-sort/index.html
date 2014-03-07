@@ -13,8 +13,11 @@
   
     
   
-  <meta name="description" content="Count Sort `O(n+k)` where k is the maximum value. `Stable` Radix Sort The `radix` means radix based. `Stable`
-`O((n+b)log_b(k))` where b is the &hellip;">
+  <meta name="description" content="Count Sort
+O(n+k) where k is the maximum value, Stable Radix Sort
+The radix means base, it’s Stable. 1
+2
+for bit from low to high sort each element &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -30,13 +33,16 @@
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Yuan's blog" />
   <meta name="og:title" content="Some Sort" />
-  <meta name="og:description" content="Count Sort `O(n+k)` where k is the maximum value. `Stable` Radix Sort The `radix` means radix based. `Stable`
-`O((n+b)log_b(k))` where b is the &hellip;" />
+  <meta name="og:description" content="Count Sort
+O(n+k) where k is the maximum value, Stable Radix Sort
+The radix means base, it’s Stable. 1
+2
+for bit from low to high sort each element &hellip;" />
   <meta name="og:url" content="http://linjiyuan90.github.io/blog/2014/03/06/some-sort/"/>
   <meta name="url" content="http://linjiyuan90.github.io/blog/2014/03/06/some-sort/">
   
-  <meta name="subject" content=""/>
-  <meta name="category" content=""/>
+  <meta name="subject" content="ds-algo"/>
+  <meta name="category" content="ds-algo"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -106,6 +112,13 @@
 <time datetime="2014-03-06T22:42:20+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time> - 
         
 
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ds-algo/'>ds-algo</a>
+  
+</span>
+
 
         
       </p>
@@ -113,17 +126,39 @@
   </header>
 
 
-  <div class="entry-content"><h2>Count Sort</h2>
+  <div class="entry-content"><h2 id="count-sort">Count Sort</h2>
+<p><strong>O(n+k)</strong> where k is the maximum value, <strong>Stable</strong></p>
 
-<pre><code>`O(n+k)` where k is the maximum value. `Stable`
-</code></pre>
+<h2 id="radix-sorthttpwwwgeeksforgeeksorgradix-sort"><a href="http://www.geeksforgeeks.org/radix-sort/">Radix Sort</a></h2>
+<p>The radix means base, it’s <strong>Stable</strong>.</p>
 
-<h2>Radix Sort</h2>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">for bit from low to high
+</span><span class="line">  sort each element by the value of current bit (count sort)</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<pre><code>The `radix` means radix based. `Stable`
-`O((n+b)log_b(k))` where b is the radix k is the maximum value.
-`log_b(k)` rounds, where each round use `Count Sort`.
-</code></pre>
+<p><strong>O((n+b)log<sub>b</sub>(k))</strong></p>
+
+<p>log<sub>b</sub>(k) rounds, while each round use Count Sort, and</p>
+
+<ul>
+  <li>b is the radix</li>
+  <li>k is the maximum value</li>
+</ul>
+
+<p>If k is n^c and b is n, then the time complexity will be <strong>O(n)</strong>, which is nice!</p>
+
+<p><strong>Summary</strong></p>
+
+<ul>
+  <li>maximum value is n, use count sort</li>
+  <li>maximum values is n^c, use radix sort with radix n. <br />
+<a href="http://www.geeksforgeeks.org/sort-n-numbers-range-0-n2-1-linear-time/">Sort n number with value less than n^2 in O(n)</a></li>
+</ul>
+
+<p>The drawback of these two sort is they require O(n) space. However, they are not
+based on comparision like quicksort.</p>
+
 </div>
 
 
@@ -152,6 +187,13 @@
 
 <time datetime="2014-03-06T22:42:20+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time> - 
       
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ds-algo/'>ds-algo</a>
+  
+</span>
 
 
     </p>
@@ -196,10 +238,6 @@
       
         <li>
           <a href="/blog/2014/03/06/octopress-tutorial/">octopress tutorial</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/03/06/first-post/">first post 2</a>
         </li>
       
     </ul>
