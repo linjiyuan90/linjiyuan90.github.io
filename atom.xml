@@ -1,16 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Yuan's blog]]></title>
   <link href="http://linjiyuan90.github.io/atom.xml" rel="self"/>
   <link href="http://linjiyuan90.github.io/"/>
-  <updated>2014-03-06T12:50:01+08:00</updated>
+  <updated>2014-03-06T22:48:29+08:00</updated>
   <id>http://linjiyuan90.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jiyuan Lin]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Some Sort]]></title>
+    <link href="http://linjiyuan90.github.io/blog/2014/03/06/some-sort/"/>
+    <updated>2014-03-06T22:42:20+08:00</updated>
+    <id>http://linjiyuan90.github.io/blog/2014/03/06/some-sort</id>
+    <content type="html"><![CDATA[<h2>Count Sort</h2>
+
+<pre><code>`O(n+k)` where k is the maximum value. `Stable`
+</code></pre>
+
+<h2>Radix Sort</h2>
+
+<pre><code>The `radix` means radix based. `Stable`
+`O((n+b)log_b(k))` where b is the radix k is the maximum value.
+`log_b(k)` rounds, where each round use `Count Sort`.
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[octopress tutorial]]></title>
+    <link href="http://linjiyuan90.github.io/blog/2014/03/06/octopress-tutorial/"/>
+    <updated>2014-03-06T17:33:05+08:00</updated>
+    <id>http://linjiyuan90.github.io/blog/2014/03/06/octopress-tutorial</id>
+    <content type="html"><![CDATA[<p><a href="http://webdesign.tutsplus.com/tutorials/getting-started-with-octopress--webdesign-11442">http://webdesign.tutsplus.com/tutorials/getting-started-with-octopress&#8211;webdesign-11442</a>
+<a href="http://asaf.github.io/blog/2013/07/08/blogging-with-octopress-add-comments/">http://asaf.github.io/blog/2013/07/08/blogging-with-octopress-add-comments/</a></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake install<span class="o">[</span><span class="s1">&#39;theme&#39;</span><span class="o">]</span>  <span class="c">#</span>
+</span><span class='line'><span class="nv">$ </span>rake generate <span class="c"># the result will be in public</span>
+</span><span class='line'><span class="nv">$ </span>rake watch
+</span><span class='line'><span class="nv">$ </span>rake preview  <span class="c"># this will watch as well</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[first post 2]]></title>
+    <link href="http://linjiyuan90.github.io/blog/2014/03/06/first-post/"/>
+    <updated>2014-03-06T13:26:58+08:00</updated>
+    <id>http://linjiyuan90.github.io/blog/2014/03/06/first-post</id>
+    <content type="html"><![CDATA[<p>Hi, a second post.</p>
+
+<figure class='code'><figcaption><span>&#8220;Random&#8221; mark:2,4-5</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="cp">#include &quot;iostream&quot;</span>
+</span><span class='line'><span class="cp">#include &quot;random&quot;</span>
+</span><span class='line'><span class="kt">int</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="n">std</span><span class="o">::</span><span class="n">default_random_engine</span> <span class="n">dre</span><span class="p">;</span>
+</span><span class='line'>    <span class="n">std</span><span class="o">::</span><span class="n">uniform_int_distribution</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">id</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">);</span>
+</span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Discover if a number is prime</span><a href='http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/'>Source Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Fixnum</span> <span class="ss">mark</span><span class="p">:</span><span class="mi">2</span><span class="o">-</span><span class="mi">3</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">prime?</span>
+</span><span class='line'>    <span class="p">(</span><span class="s1">&#39;1&#39;</span> <span class="o">*</span> <span class="nb">self</span><span class="p">)</span> <span class="o">!~</span> <span class="sr">/^1?$|^(11+?)\1+$/</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Coffeescript Tricks start:51 mark:52,54-55</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># Given an alphabet:</span>
+</span><span class='line'><span class="nv">alphabet = </span><span class="s">&#39;abcdefghijklmnopqrstuvwxyz&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Iterate over part of the alphabet:</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="nx">letter</span> <span class="k">for</span> <span class="nx">letter</span> <span class="k">in</span> <span class="nx">alphabet</span><span class="p">[</span><span class="mi">4</span><span class="p">..</span><span class="mi">8</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
 </feed>

@@ -1,15 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://linjiyuan90.github.io/blog/2014/03/06/first-post/</loc>
+        <lastmod>2014-03-06T17:11:40+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://linjiyuan90.github.io/blog/2014/03/06/octopress-tutorial/</loc>
+        <lastmod>2014-03-06T22:48:22+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://linjiyuan90.github.io/blog/2014/03/06/some-sort/</loc>
+        <lastmod>2014-03-06T22:47:23+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://linjiyuan90.github.io/blog/archives/</loc>
-        <lastmod>2014-03-06T12:46:58+08:00</lastmod>
+        <lastmod>2014-03-06T22:48:22+08:00</lastmod>
     </url>
     <url>
         <loc>http://linjiyuan90.github.io/</loc>
-        <lastmod>2014-03-06T12:46:58+08:00</lastmod>
+        <lastmod>2014-03-06T22:48:22+08:00</lastmod>
     </url>
     <url>
-        <loc>http://linjiyuan90.github.io/robots.txt</loc>
-        <lastmod>2014-03-06T12:46:58+08:00</lastmod>
+        <loc>http://linjiyuan90.github.io/try-octopress/</loc>
+        <lastmod>2014-03-06T17:14:06+08:00</lastmod>
     </url>
 </urlset>
