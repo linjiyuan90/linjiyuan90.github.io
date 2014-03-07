@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://linjiyuan90.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Yuan's blog
+subtitle: code, code, play ...
+author: Jiyuan Lin
 simple_search: http://google.com/search
-description:
+description: Yuan's blog built with octopress
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: linjiyuan90
 disqus_show_comment_count: false
 
 # Google Analytics

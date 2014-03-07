@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Some Sort"
+date: 2014-03-06 22:42:20 +0800
+comments: true
+categories: 
+---
+
+## Count Sort
+	`O(n+k)` where k is the maximum value. `Stable`
+## Radix Sort
+	The `radix` means radix based. `Stable`
+	`O((n+b)log_b(k))` where b is the radix k is the maximum value.
+	`log_b(k)` rounds, where each round use `Count Sort`.
